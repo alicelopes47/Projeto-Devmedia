@@ -1,0 +1,288 @@
+html, body {
+    font-family: sans-serif; 
+    background-color: #f1f1f1;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.base-class {
+    display: flex;
+    gap: 0.3em;
+    width: 20em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.base-class:hover {
+background-color: #f54431;;
+}
+
+.options-header img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-options h1 {
+    margin-top: 2em;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: flex-start;
+    gap: 26.1em;
+}
+
+.all-options {
+    width: 60em;
+}
+
+.all-options h1 {
+    margin-top: 0.5em;
+    margin-left: 0.4em;
+     
+}
+
+.all-options p {
+    margin-top: 0.3em;
+    margin-left: 0.9em;
+}
+
+.text-box {
+    margin-left: 0.9em;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.text-box input {
+    font-size: 1.2em;
+    padding: 0.4em;
+    width: 30em;
+    color: gray;
+}
+
+.all-options button {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    padding: 0.5em;
+    background-color: #8d877d;
+    color: white;
+    border: solid #8d877d;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+.options-header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-options {
+    position: absolute; /* eu quebrei muito a cabeça nessa parte, não tava conseguindo fazer com que a div 
+    ficasse no meio da imagem, fiquei chocada que da pra usar align itens e justify content pra 
+    centralizar no position, passei horas pesquisando*/
+}
+
+
+/*Colocando cores*/
+
+.base-class-orange {
+    background-color: #f54431;
+    color: white;
+}
+
+.base-class {
+    background-color: black;
+    color: white;
+}
+
+.all-options {
+    background-color: white;
+}
+
+/*Main*/
+main {
+  margin: 0 5em;
+}
+
+.container h1,
+.text-container-two h1{
+    margin-top: 0.7em;
+}
+
+.container p,
+.text-container-two p {
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imgs {
+    display: flex;
+    position: relative;
+    width: 100%;
+    column-gap: 1rem;
+
+}
+
+.imgs p {
+    position: absolute;
+    bottom: 1em;
+    margin: 0;
+    color: white;
+    left: 1em;
+}
+
+.imgs img {
+    width: 50%;
+}
+
+.container-smallimgs {
+    display: grid;
+    grid-template-columns: auto auto ; /* definir um template para as colunas*/
+    width: 50%;
+    gap: 1rem;
+
+}
+
+.container-smallimgs img {
+    width: 100%; 
+    height: 100%;
+
+}
+
+.container-smallimgs div {
+    position: relative;
+    width: 100%;
+}
+
+.imgs-nature {
+ display: flex;
+ gap: 1rem; /* gap nao ficou alinhado com o de cima, dúvida*/
+}
+
+.imgs-nature img {
+    width: 100%; 
+}
+.trip-info {
+    background-color: white;
+}
+
+.trip-info h2 {
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+
+.trip-info p {
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+}
+
+.excentric-p {
+    margin-top: 0.7em;
+    color: lightgray;
+}
+
+.buy {
+    padding: 0.4em; }
+
+.best-offers {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #606060;
+    padding: 1em;
+    color: white;
+}
+
+.best-offers p {
+    margin-top: 1em;
+}
+
+.best-offers input {
+    padding: 0.5em;
+    color: lightgray;
+}
+
+.best-offers button {
+    margin-top: 1em;
+    width: 6em;
+    height: 2.5em;
+    background-color: #f38981;
+    border: solid #f38981;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-icon {
+    display: flex;
+    gap: 1em;
+}
+
+.contact-list h2 {
+    padding: 0.8em 0;
+}
+
+.book {
+    margin-bottom: 1em;
+}
+
+.inputs-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    margin-top: 1em;
+}
+
+.inputs-contact input {
+    padding: 1em 0;
+}
+
+.inputs-contact button {
+    width: 10em;
+    padding: 0.8em;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.footer-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-footer {
+    margin-top: 1.5em;
+}
+
+.footer-options p {
+    margin-top: 1.5em;
+}
