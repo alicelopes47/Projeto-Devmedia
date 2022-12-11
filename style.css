@@ -277,6 +277,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: gray;
 }
 
 .icons-footer {
@@ -285,4 +286,14 @@ main {
 
 .footer-options p {
     margin-top: 1.5em;
+}
+
+/*ajustando fonte*/
+
+html, body, h1 {
+    font-weight: 200;
+}
+
+html, body, h2 {
+    font-weight: 200;
 }
