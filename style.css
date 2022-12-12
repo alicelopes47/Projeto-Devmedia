@@ -412,25 +412,65 @@ html, body, h2 {
 
     .container-smallimgs img {
         width: 100%;
+        justify-content: center;
+        align-items: center;
     } 
     .imgs-media { 
         display: flex;
         flex-direction: column;
+        gap: 1em;
     }
 
     .imgs-media img {
         width:  100%;
     }
-
-    .imgs-media { 
+    
+    .imgs-media-div { 
         position: relative;
     }
 
-    .cinque-terre-position {
+    .imgs-media-div p { 
         position: absolute;
         color: white;
-        left: 1em;
-        top: 14em;
+        left: 2em;
+        bottom: 1em;
+    }
+
+    .container h1 { 
+        margin-top: 2em;
+    }
+
+    .container p { 
+        margin-top: 1em;
+    }
+
+    .imgs-nature {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-two h1 {
+        margin-left: 0.5em;
+    }
+
+    .container-two p {
+        margin-left: 1em;
+    }
+
+    .trip-info {
+        margin: 0 1em;
+    }
+
+    .best-offers {
+        margin: 2em 1em;
+    }
+
+    .contact-list {
+    margin: 2em 1em;}
+
+    .footer-options {
+        margin-bottom: 3em;
     }
 }
     
